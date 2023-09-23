@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: rgba(255, 234, 0, 0.658);
+}
+.container
+{
+    background-color: white;
+
+}
+.navbar
+{
+    background-color:white;
+    margin-top: 20px;
+}
+.navbar-brand
+{
+    color:black;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 30px;
+}
+.logo
+{
+    color: rgb(255, 234, 0);
+}
+
+.nav-item .nav-link
+{
+    color:black ;
+    font-weight: 500;
+    font-size: 20px;
+}
+.nav-item .nav-link:hover
+{
+    background-color: rgb(255, 234, 0);
+}
+.d-flex .btn
+{
+    background: rgb(255, 234, 0);
+    margin-right: 30px;
+}
+.home
+{
+    background: linear-gradient(rgba(23,23,25,0.6),rgba(23,23,25,0.6)),url(tour.jpg);
+    text-align: center;
+    color: white;
+    padding: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+   
+}
+
+.home2::after
+{
+    content: '';
+    color:rgb(255, 234, 0);
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite;
+}
+
+@keyframes changetext
+{
+    0%{content:"Turcky"}
+    10%{content:"USA"}
+    20%{content:"Spain"}
+    30%{content:"United State"} 
+    40%{content:"China"} 
+    50%{content:"france"} 
+    60%{content:"Pakistan"} 
+    70%{content:"Italy"} 
+    80%{content:"canada"} 
+ 
+}
+.home a
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight:bold;
+    padding: 5px;
+}
+.card
+{
+ border-radius: 10px;
+ box-shadow: 0px 1px 1px black;
+}
+.header2
+{
+    text-align: center;
+}
+.header2 .row
+{
+    margin-top: 30px;
+}
+.book
+{
+    color: rgb(193, 179, 30);
+}
+.header2 h1
+{
+    background-color: white;
+    padding: 50px;
+}
+
+.header2 form input
+{
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+    font-size: 20px;
+}
+.header2 form textarea
+{
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow:  0px 5px 5px -6px black;
+    font-size: 20px;
+}
+.header2 form .submit
+{
+    width: 160px;
+    color: black;
+    background-color: rgb(255, 234, 0);
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.header2 .submit:hover
+{
+    width: 170px;
+}
+
